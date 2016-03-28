@@ -1,0 +1,22 @@
+name: NewMod
+version: 0.9.0.1
+author: StarProgamGamer
+main: NewMod\NewMod
+commands:
+ checkop:
+  description: Checks if the target player is OP
+  permission: NM.command.checkop
+  usage: /checkop <player>
+ checkgm:
+  description: Checks what gamemode the target player is
+  permission: NM.command.checkgm
+  usage: /checkgm <player>
+permissions:
+ NM.command.checkop:
+  description: Checks if the target player is op
+  default: true
+ NM.command.checkgm:
+  description: Checks what gamemode the target player is
+  default: true
+api: 2.0.0
+
